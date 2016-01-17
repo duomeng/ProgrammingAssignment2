@@ -16,7 +16,7 @@
 	}
 	
 
-	## This function returns the inverse of the given matrix
+    ## This function returns the inverse of the given matrix
 	cacheSolve <- function(x, ...) {
 	        m <- x$getinverse()
 	        if(!is.null(m)) {
